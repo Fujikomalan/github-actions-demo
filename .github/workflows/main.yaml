@@ -20,7 +20,7 @@ jobs:
         run: cat /etc/os-release
 
       - name: "Getting Memory Details"
-        rum: free -m
+        run: free -m
 
       - name: "Current Working Directory And its Contents"
         run: |
